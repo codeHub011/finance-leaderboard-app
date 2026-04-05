@@ -1,5 +1,5 @@
 import SummaryCards from "../components/dashboard/SummaryCards";
-import Insights from "../components/dashboard/insights";
+import Insights from "../components/dashboard/Insights.jsx";
 import TransactionTable from "../components/transactions/TransactionTable";
 import RoleSwitcher from "../components/common/RoleSwitcher";
 
