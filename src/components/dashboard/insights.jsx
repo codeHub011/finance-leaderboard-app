@@ -19,4 +19,4 @@ export default function Insights() {
       <p>Highest Spending: {highest?.[0]}</p>
     </div>
   );
-}
+}s
