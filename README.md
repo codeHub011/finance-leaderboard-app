@@ -1,16 +1,102 @@
-# React + Vite
+# 💰 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive finance dashboard built using React that helps users track financial activity, manage transactions, and gain insights into spending patterns.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+👉[ https://your-vercel-link.vercel.app](https://financial-leaderboard-app-kge1.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📊 **Dashboard Overview**
+  Summary cards for Total Balance, Income, and Expenses with a clean layout.
+
+* 💳 **Transactions Section**
+  View all transactions with date, amount, category, and type.
+  Includes search/filter and add transaction functionality (Admin only).
+
+* 🔐 **Role-Based UI**
+
+  * Admin → Can add transactions
+  * Viewer → Read-only access
+
+* 📈 **Insights**
+  Automatically calculates highest spending category based on data.
+
+* 🎨 **UI/UX**
+
+  * Dark / Light mode toggle
+  * Clean and modern design
+  * Responsive layout
+
+---
+
+## 🛠️ Tech Stack
+
+* React (Vite)
+* Context API (State Management)
+* JavaScript (ES6)
+* Custom CSS
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── dashboard/
+ │    ├── transactions/
+ │    └── common/
+ ├── pages/
+ ├── context/
+ ├── data/
+ └── styles/
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone https://github.com/your-username/finance-dashboard.git
+cd finance-dashboard
+npm install
+npm run dev
+```
+
+---
+
+## 🧠 Approach
+
+* Built using component-based architecture for scalability
+* Managed global state using Context API
+* Implemented role-based UI logic on frontend
+* Focused on clean UI, reusability, and user experience
+
+---
+
+## ✨ Future Improvements
+
+* Edit & delete transactions
+* Charts (Pie / Bar) for visualization
+* Backend integration (API)
+* Authentication system
+* Data persistence
+
+---
+
+## 👨‍💻 Author
+
+Anil Kumar Yadav
+
+---
+
+## 📌 Notes
+
+This project was created as part of a frontend internship assignment to demonstrate UI design, state management, and frontend development skills.
+
