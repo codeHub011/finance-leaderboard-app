@@ -63,7 +63,7 @@ src/
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone https://github.com/your-username/finance-dashboard.git
+[git clone https://github.com/your-username/finance-dashboard.git](https://github.com/codeHub011/finance-leaderboard-app)
 cd finance-dashboard
 npm install
 npm run dev
